@@ -31,6 +31,10 @@ nano ~/.config/fish/config.fish
 ```
 You can use the `config.fish` file in this repo as a template. 
 ```
+cd ~ 
+git clone https://github.com/cons0le7/Shells-for-iSH/blob/main/README.md
+cp ~/Shells-for-iSH/config.fish ~/.config/fish/config.fish
+rm -r ~/Shells-for-iSH 
 ```
 
 ## Bash 
