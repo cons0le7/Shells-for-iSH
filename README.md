@@ -25,6 +25,10 @@ To make default shell:
 ```
 sed -i '1s|.*|root:x:0:0:root:/root:/usr/bin/fish|' /etc/passwd
 ```
+To edit config: 
+```
+nano ~/.config/fish/config.fish
+```
 
 ## Bash 
 ```
