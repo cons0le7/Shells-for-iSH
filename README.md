@@ -29,6 +29,9 @@ To edit config:
 ```
 nano ~/.config/fish/config.fish
 ```
+You can use the `config.fish` file in this repo as a template. 
+```
+```
 
 ## Bash 
 ```
