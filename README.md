@@ -49,7 +49,7 @@ To make default shell:
 sed -i '1s|.*|root:x:0:0:root:/root:/usr/bin/bash|' /etc/passwd
 ```
 ___
-# Not shells 
+# Not shells (Misc.)
 
 ## Neofetch 
 To install: 
