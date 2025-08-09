@@ -1,6 +1,7 @@
 # Shells-for-iSH 
 
 ## oh my zsh! 
+Install:
 ```
 apk add zsh curl shadow
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -18,6 +19,7 @@ nano ~/.zshrc
 ``` 
 
 ## Fish 
+Install: 
 ```
 apk add fish
 ```
@@ -38,6 +40,7 @@ rm -r ~/Shells-for-iSH
 ```
 
 ## Bash 
+Install: 
 ```
 apk add bash
 ```
@@ -45,7 +48,7 @@ To make default shell:
 ```
 sed -i '1s|.*|root:x:0:0:root:/root:/usr/bin/bash|' /etc/passwd
 ```
-
+___
 # Not shells 
 
 ## Neofetch 
