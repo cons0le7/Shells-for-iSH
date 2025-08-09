@@ -45,3 +45,20 @@ To make default shell:
 ```
 sed -i '1s|.*|root:x:0:0:root:/root:/usr/bin/bash|' /etc/passwd
 ```
+
+# Not shells 
+
+## Neofetch 
+To install: 
+```
+apk add neofetch
+```
+To dump default config run `neofetch` once and it will be in `~/.config/neofetch/config.conf` 
+This is the same as the file in this repo titled `neofetch_full.conf` 
+You can also import a simplified version from this repo `neofetch_simple.conf` to make modifying easier: 
+```
+cd ~ 
+git clone https://github.com/cons0le7/Shells-for-iSH.git
+cp ~/Shells-for-iSH/neofetch_simple.conf ~/.config/neofetch/config.conf
+rm -r ~/Shells-for-iSH 
+```
