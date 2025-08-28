@@ -65,3 +65,6 @@ git clone https://github.com/cons0le7/Shells-for-iSH.git
 cp ~/Shells-for-iSH/neofetch_simple.conf ~/.config/neofetch/config.conf
 rm -r ~/Shells-for-iSH 
 ```
+
+## Themes 
+The themes folder in this repo contain JSON theme files formatted for iSH. You can use these as is or cusomize the hex values to make your own theme. To load theme: `Open iSH > Settings/cog wheel > Appearance > Theme > Edit > Import Theme `
